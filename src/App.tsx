@@ -49,7 +49,7 @@ function App() {
         <TituloEsquerdo texto="CloudStock" link="https://github.com/SkyFlyTeam/cloudStock"/>
         <TextoEsquerdo texto="CloudStock é um sistema web de gestão de estoques para comércio virtual, sendo assim, por intermédio desse podemos controlar a informação sobre entrada e saída de lotes,
         produtos, fornecedores, funcionários, logs, etc. Meu papel no trabalho consistiu na entrega de parte do Front-End, desenvolvido em React, para melhoria de navegabilidade (como barras
-         laterais e superiores), além de tabelas, gráficos, e outros componentes que trabalham na ideia de capturar uma informação e exibí=la ao usuário de modo intuitivo. Além dos
+         laterais e superiores), além de tabelas, gráficos, e outros componentes que trabalham na ideia de capturar uma informação e exibí-la ao usuário de modo intuitivo. Além dos
          trabalhos desenvolvidos no Front-End, ainda tive a oportunidade de desenvolver parte da API que utilizamos para a obtenção das informações do banco de dados, configurando rotas,
          corrigindo erros e tratando excessões. Utilizamos no projeto o ORM Sequelize para trabalhar com as informações do banco de dados MySQL que foi configurado pela equipe."/>
          <TextoEsquerdo texto="Conhecimentos utilizados: React com Typescript, Express, MySQL, Orientação a objetos e Metodologias ágeis."/>
