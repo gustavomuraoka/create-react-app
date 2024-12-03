@@ -12,7 +12,6 @@ const NavBar: React.FC = () => {
         
         {/* Container para o LinkedIn e o email */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <span style={{ color: "#FBE9D0", fontSize: "1rem" }}>gustavomuraoka15@gmail.com</span>
           <a 
             href="https://www.linkedin.com/in/gustavo-muraoka-4256721ba/" 
             target="_blank" 

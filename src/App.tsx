@@ -1,4 +1,5 @@
 import React from 'react';
+import { CSSProperties } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Apresentacao from './components/Apresentação';
@@ -15,7 +16,7 @@ const itens = ["• Python", "• Django", "• Flask", "• SQL", "• MongoDB"
 const itensinteresse = ["• Pescar", "• Assistir o Corinthians", "• Academia", "• Futebol", "• Estudar assuntos diversos", "• Mercado de Equity", "• Investimentos de risco", "• Brincar com meus irmãos" ]
 function App() {
   return (
-    <div style={{ backgroundColor: '#FBE9D0' }}>
+    <div style={{ backgroundColor: '#FBE9D0', width: '100%', overflowX: 'hidden' }}>
       <Navbar />
       <Apresentacao />
       <div style={styles.textContainer}>
@@ -82,13 +83,16 @@ function App() {
   );
 }
 
-const styles = {
+const styles: { textContainer: CSSProperties } = {
   textContainer: {
     display: 'flex',
-    flexDirection: 'column' as 'column',
+    flexDirection: 'column',
     gap: '20px',
     padding: '20px',
+    width: '100%',
+    boxSizing: 'border-box',
   },
 };
+
 
 export default App;
