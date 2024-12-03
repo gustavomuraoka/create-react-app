@@ -3,9 +3,9 @@ import { Navbar, Container } from 'react-bootstrap';
 
 const NavBar: React.FC = () => {
   return (
-    <Navbar style={{ backgroundColor: "#244855", padding: "10px 0" }}>
+    <Navbar style={{ backgroundColor: "#003161", padding: "10px 0" }}>
       <Container>
-        <Navbar.Brand href="/" style={{ color: "#FBE9D0", fontSize: "1.25rem" }}>
+        <Navbar.Brand href="/" style={{ color: "#fffefa", fontSize: "1.25rem" }}>
           Portfólio de Gustavo Muraoka Silva
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />

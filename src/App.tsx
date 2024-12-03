@@ -16,7 +16,7 @@ const itens = ["• Python", "• Django", "• Flask", "• SQL", "• MongoDB"
 const itensinteresse = ["• Pescar", "• Assistir o Corinthians", "• Academia", "• Futebol", "• Estudar assuntos diversos", "• Mercado de Equity", "• Investimentos de risco", "• Brincar com meus irmãos" ]
 function App() {
   return (
-    <div style={{ backgroundColor: '#FBE9D0', width: '100%', overflowX: 'hidden' }}>
+    <div style={{ backgroundColor: '#fffefa', width: '100%', overflowX: 'hidden' }}> {/*f9f7e6*/}
       <Navbar />
       <Apresentacao />
       <div style={styles.textContainer}>
